@@ -1,4 +1,4 @@
-package com.clone;
+package com.challenge.clone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
