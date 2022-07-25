@@ -27,4 +27,8 @@ public class ProductService {
                 .map(element -> mapper.productEntityToProducDto(element))
                 .collect(Collectors.toList());
     }
+
+    public ProductDto getProductById(Long id){
+        return mapper.productEntityToProducDto(this.productDao.findById(id));
+    }
 }

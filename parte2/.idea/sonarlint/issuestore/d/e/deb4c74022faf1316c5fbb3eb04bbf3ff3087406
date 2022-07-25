@@ -1,0 +1,31 @@
+
+L
+java:S3740)"/Provide the parametrized type for this generic.(Ç•À±8ä‰´’£0
+’
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ü¸¿ùøÿÿÿÿ8ğ‰´’£0
+Œ
+java:S1319"jThe type of "listNumber" should be an interface such as "List" rather than the implementation "ArrayList".(Ü¸¿ùøÿÿÿÿ8ğ‰´’£0
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•á[8¥ë·’£0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÃÆº—8µ‹´’£0
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(œ¯˜8µ‹´’£0
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(«Û©âûÿÿÿÿ8Ä‹´’£0
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(ÈğŒş8Ì‹´’£0
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(ù’çÏ8Í‹´’£0
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(Ä§¶Ûüÿÿÿÿ8Î‹´’£0
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(ª¯¯óøÿÿÿÿ8Ï‹´’£0
+T	java:S106?"9Replace this use of System.out or System.err by a logger.(µš+8Ğ‹´’£0
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(î“¤Ô8Ó‹´’£0
+T	java:S106G"9Replace this use of System.out or System.err by a logger.(µš+8Ô‹´’£0
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(®Âªÿøÿÿÿÿ8Ô‹´’£0
+U	java:S106T"9Replace this use of System.out or System.err by a logger.(şîÃ¨8Õ‹´’£0
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(°Ú®âúÿÿÿÿ8Ö‹´’£0
+U	java:S106X"9Replace this use of System.out or System.err by a logger.(«˜“‘8Ö‹´’£0
+U	java:S106["9Replace this use of System.out or System.err by a logger.(›Ó½¬8â‹´’£0
+U	java:S106^"9Replace this use of System.out or System.err by a logger.(¤°û‰8ã‹´’£0
+U	java:S106a"9Replace this use of System.out or System.err by a logger.(À¤Ìÿ8ã‹´’£0
+{
+java:S2142t"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8ì‹´’£0
+U	java:S106l"9Replace this use of System.out or System.err by a logger.(Ç¢šõ8î‹´’£0
+U	java:S106o"9Replace this use of System.out or System.err by a logger.(°æÓÉ8ï‹´’£0
+Z	java:S106r"9Replace this use of System.out or System.err by a logger.(èÿ¿İıÿÿÿÿ8ï‹´’£0
+Z	java:S106u"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ğ‹´’£0

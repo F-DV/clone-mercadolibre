@@ -1,0 +1,80 @@
+<div class="containter">
+  <div class="container-image">
+    <img src="../../../assets/img/iPhone.jpg" class="img-thumbnail" alt="producto">
+  </div>
+  <div class="container-1">
+    <div>
+      <div>
+        <div class="container-header">
+          <div class="container-subtitle">
+            <span class="subtitle">Nuevo | 10 vendidos</span>
+          </div>
+          <div class="container-title">
+            <h1 class="title">{{product.name}}</h1>
+          </div>
+        </div>
+        <div class="container-2">
+          <div class="container-price">
+              <span class="price">
+                $ {{product.price}}
+              </span>
+          </div>
+          <div class="container-subtitle-price">
+            <p class="subtitle-price">
+              en 12x $44.992 sin interés
+            </p>
+          </div>
+          <div class="container-subtitle-price-2">
+            <div>
+              <a class="subtitle-price-2" href="https://articulo.mercadolibre.com.co/noindex/services/MCO838667915/payments?new_version=true&modal=false&newIndex=true%3Fcontrolled%3Dtrue">
+                Ver los medios de pago
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container-information-1">
+          <div class="information-1">
+            <p class="information-arrive">Llega gratis el martes</p>
+            <p class="information-time">Comprando dentro de las próximas 3 h 15 min</p>
+            <a href="#">Ver más formas de entrega</a>
+          </div>
+        </div>
+        <div class="container-information-2">
+          <div class="information-2">
+            <p class="information-arrive">Devolución gratis</p>
+            <p class="information-time">Tienes 30 días desde que lo recibes.</p>
+            <a href="#">Conocer más</a>
+          </div>
+          <div class="container-information-3">
+            <div class="information-3">
+              <div class="about-product">
+                <p>
+                  Color:
+                  <span class="type-color">Transparente</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="stock">
+            Stock : disponible
+          </div>
+        </div>
+        <div>
+          Devolucion gratis
+        </div>
+        <div>
+          Color del teclado
+        </div>
+        <div class="stock-amount">
+          <p>Cantidad: ({{product.stock}} disponibles)</p>
+        </div>
+      </div>
+      <div class="container-buttons">
+        <button class="button-comprar-ahora" type="button" (click)="buyProduct()" >Comprar ahora</button>
+        <button class="button-agregar-al-carrito" type="button" (click)="addToCart()">Agregar al Carrito</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+

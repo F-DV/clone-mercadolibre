@@ -7,5 +7,5 @@ import java.util.List;
 public interface ProductDao {
 
     List<ProductEntity> getProducts();
-    ProductEntity findbyId(Long id);
+    ProductEntity findById(Long id);
 }

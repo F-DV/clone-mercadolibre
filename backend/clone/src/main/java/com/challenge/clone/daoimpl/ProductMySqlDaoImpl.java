@@ -15,17 +15,16 @@ public class ProductMySqlDaoImpl implements ProductDao {
     @Autowired
     private ProductRepository productRepository;
 
-
     @Override
     public List<ProductEntity> getProducts() {
 
         return this.productRepository.findAll();
     }
 
-
     @Override
-    public ProductEntity findbyId(Long id) {
+    public ProductEntity findById(Long id) {
         return this.productRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException());
     }
+
 }

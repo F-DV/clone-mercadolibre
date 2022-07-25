@@ -1,0 +1,28 @@
+<div *ngFor="let shop of shoppingList" class="cointainer-shopping">
+  <div class="container-image">
+    <img class="image" src="../../../assets/img/iPhone.jpg" alt="Image">
+  </div>
+  <div class="container-description">
+    <div class="description-state">
+      <p>Entregado</p>
+    </div>
+    <div class="description-title">
+      <h6>{{shop.name}}</h6>
+    </div>
+    <div class="description-amount">
+      <div class="amount">
+        <p>
+          Cantidad: {{shop.amount}}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-seller">
+    <div class="seller">
+      <h6>Vendedor:</h6>
+      <p>
+        {{shop.customerName}}
+      </p>
+    </div>
+  </div>
+</div>
